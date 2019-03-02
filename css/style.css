@@ -54,6 +54,14 @@ h6 {
   visibility: hidden;
 }
 
+audio {
+  border-radius: 25px;
+  background-color: #0e1b4d;
+  box-shadow: #fff;
+  width: 100%;
+  margin-top: 60px;
+}
+
 /* Prelaoder */
 
 #preloader {
@@ -517,7 +525,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro h1 span {
-  color: #34d4c0
+  color: #34d4c0;
 }
 
 #intro p {
@@ -896,6 +904,19 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #venue {
   padding: 60px 0;
+}
+
+#venue h3 {
+  color: #152b79;
+  font-size: 2.5em;
+}
+
+#venue h3 span {
+  color: #34d4c0;
+}
+
+#venue .centertext {
+  text-align: center
 }
 
 #venue .container-fluid {
